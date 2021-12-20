@@ -9,12 +9,12 @@
 
 // RoomTypes
 {
-	id Oct.Rooms.Practice.T1
+	id Oct.Rooms.Gymnasium.T1
 	type RoomType
   inherit Oct.Rooms.T1
 
-	priority = 1002
-	name = Practice
+	priority = 501
+	name = Tier 1 Gymnasium
     onlyInherit = true
 
 	specifications =
@@ -23,12 +23,12 @@
 	]
 }
 {
-	id Oct.Rooms.Practice.T2
+	id Oct.Rooms.Gymnasium.T2
 	type RoomType
   inherit Oct.Rooms.T2
 
-	priority = 1002
-	name = Practice
+	priority = 502
+	name = Tier 2 Gymnasium
     onlyInherit = true
 
 	specifications =
@@ -38,12 +38,12 @@
 	]
 }
 {
-	id Oct.Rooms.Practice.T3
+	id Oct.Rooms.Gymnasium.T3
 	type RoomType
   inherit Oct.Rooms.T3
 
-	priority = 1002
-	name = Practice
+	priority = 503
+	name = Tier 3 Gymnasium
     onlyInherit = true
 
 	specifications =
@@ -54,12 +54,12 @@
 	]
 }
 {
-	id Oct.Rooms.Practice.T4
+	id Oct.Rooms.Gymnasium.T4
 	type RoomType
   inherit Oct.Rooms.T4
 
-	priority = 1002
-	name = Practice
+	priority = 504
+	name = Tier 4 Gymnasium
     onlyInherit = true
 
 	specifications =
@@ -74,52 +74,52 @@
 // ContainsRoomSpecifications
 
 {
-	id Oct.Buildings.Contents.Practice.T1
+	id Oct.Buildings.Contents.Gymnasium.T1
 	type ContainsRoomSpecification
 
-	name = Tier 1 Practice Room
+	name = Tier 1 Gymnasium
 	types =
 	[
-		<Oct.Rooms.Practice.T1>
-		<Oct.Rooms.Practice.T2>
-		<Oct.Rooms.Practice.T3>
-		<Oct.Rooms.Practice.T4>
+		<Oct.Rooms.Gymnasium.T1>
+		<Oct.Rooms.Gymnasium.T2>
+		<Oct.Rooms.Gymnasium.T3>
+		<Oct.Rooms.Gymnasium.T4>
 	]
 	included = true
 }
 {
-	id Oct.Buildings.Contents.Practice.T2
+	id Oct.Buildings.Contents.Gymnasium.T2
 	type ContainsRoomSpecification
 
-	name = Tier 2 Practice Room
+	name = Tier 2 Gymnasium
 	types =
 	[
-		<Oct.Rooms.Practice.T2>
-		<Oct.Rooms.Practice.T3>
-		<Oct.Rooms.Practice.T4>
+		<Oct.Rooms.Gymnasium.T2>
+		<Oct.Rooms.Gymnasium.T3>
+		<Oct.Rooms.Gymnasium.T4>
 	]
 	included = true
 }
 {
-	id Oct.Buildings.Contents.Practice.T3
+	id Oct.Buildings.Contents.Gymnasium.T3
 	type ContainsRoomSpecification
 
-	name = Tier 3 Practice Room
+	name = Tier 3 Gymnasium
 	types =
 	[
-		<Oct.Rooms.Practice.T3>
-		<Oct.Rooms.Practice.T4>
+		<Oct.Rooms.Gymnasium.T3>
+		<Oct.Rooms.Gymnasium.T4>
 	]
 	included = true
 }
 {
-	id Oct.Buildings.Contents.Practice.T4
+	id Oct.Buildings.Contents.Gymnasium.T4
 	type ContainsRoomSpecification
 
-	name = Tier 4 Practice Room
+	name = Tier 4 Gymnasium
 	types =
 	[
-		<Oct.Rooms.Practice.T4>
+		<Oct.Rooms.Gymnasium.T4>
 	]
 	included = true
 }

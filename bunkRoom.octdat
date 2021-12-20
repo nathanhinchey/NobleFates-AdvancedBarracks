@@ -6,14 +6,14 @@
 	type RoomType
   inherit Oct.Rooms.T1
 
-	priority = 501
-	name = Bunk Room
+	priority = 401
+	name = Tier 1 Bunk Room
     onlyInherit = true
 
 	specifications =
 	[
-		<Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
+		<Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
 	]
 }
 {
@@ -21,14 +21,15 @@
 	type RoomType
   inherit Oct.Rooms.T2
 
-	priority = 501
-	name = Bunk Room
+	priority = 402
+	name = Tier 2 Bunk Room
     onlyInherit = true
 
 	specifications =
 	[
-		<Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
+		<Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
 	]
 }
 {
@@ -36,15 +37,16 @@
 	type RoomType
   inherit Oct.Rooms.T3
 
-	priority = 501
-	name = Bunk Room
+	priority = 403
+	name = Tier 3 Bunk Room
     onlyInherit = true
 
 	specifications =
 	[
-		<Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
+		<Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
 	]
 }
 {
@@ -52,16 +54,20 @@
 	type RoomType
   inherit Oct.Rooms.T4
 
-	priority = 501
-	name = Bunk Room
+	priority = 404
+	name = Tier 4 Bunk Room
     onlyInherit = true
 
 	specifications =
 	[
-		<Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
-		<Oct.Rooms.Contents.Bed>
-    <Oct.Rooms.Contents.Bed>
+		<Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
+		<Oct.Rooms.Contents.Bed.Included>
+    <Oct.Rooms.Contents.Bed.Included>
+		<Oct.Rooms.Contents.Bed.Included>
+		<Oct.Rooms.Contents.Bed.Included>
+		<Oct.Rooms.Contents.Bed.Included>
+		<Oct.Rooms.Contents.Bed.Included>
 	]
 }
 
