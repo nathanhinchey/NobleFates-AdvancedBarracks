@@ -1,6 +1,69 @@
 // expand the concept of bunkrooms to be tiered.
 
 // RoomTypes
+{
+	id Oct.Rooms.Bunk.T1
+	type RoomType
+  inherit Oct.Rooms.T1
+
+	priority = 501
+	name = Bunk Room
+    onlyInherit = true
+
+	specifications =
+	[
+		<Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+	]
+}
+{
+	id Oct.Rooms.Bunk.T2
+	type RoomType
+  inherit Oct.Rooms.T2
+
+	priority = 501
+	name = Bunk Room
+    onlyInherit = true
+
+	specifications =
+	[
+		<Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+	]
+}
+{
+	id Oct.Rooms.Bunk.T3
+	type RoomType
+  inherit Oct.Rooms.T3
+
+	priority = 501
+	name = Bunk Room
+    onlyInherit = true
+
+	specifications =
+	[
+		<Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+	]
+}
+{
+	id Oct.Rooms.Bunk.T4
+	type RoomType
+  inherit Oct.Rooms.T4
+
+	priority = 501
+	name = Bunk Room
+    onlyInherit = true
+
+	specifications =
+	[
+		<Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+		<Oct.Rooms.Contents.Bed>
+    <Oct.Rooms.Contents.Bed>
+	]
+}
 
 // ContainsRoomSpecifications
 

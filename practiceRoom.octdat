@@ -1,5 +1,77 @@
+// TilePropTypes
+{
+  id Oct.Props.TrainingDummy
+  type TilePropType
 
-// Tiers of practice Rooms
+	belonging = true
+  factionOwnership = true
+}
+
+// RoomTypes
+{
+	id Oct.Rooms.Practice.T1
+	type RoomType
+  inherit Oct.Rooms.T1
+
+	priority = 1002
+	name = Practice
+    onlyInherit = true
+
+	specifications =
+	[
+        <Oct.Rooms.Contents.TrainingDummy>
+	]
+}
+{
+	id Oct.Rooms.Practice.T2
+	type RoomType
+  inherit Oct.Rooms.T2
+
+	priority = 1002
+	name = Practice
+    onlyInherit = true
+
+	specifications =
+	[
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+	]
+}
+{
+	id Oct.Rooms.Practice.T3
+	type RoomType
+  inherit Oct.Rooms.T3
+
+	priority = 1002
+	name = Practice
+    onlyInherit = true
+
+	specifications =
+	[
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+	]
+}
+{
+	id Oct.Rooms.Practice.T4
+	type RoomType
+  inherit Oct.Rooms.T4
+
+	priority = 1002
+	name = Practice
+    onlyInherit = true
+
+	specifications =
+	[
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+        <Oct.Rooms.Contents.TrainingDummy>
+	]
+}
+
+// ContainsRoomSpecifications
 
 {
 	id Oct.Buildings.Contents.Practice.T1
