@@ -4,8 +4,8 @@
 	type BuildingType
 
 	baseValue = 50
-	name = Barracks
-	priority = 500
+	name = Tier 1 Barracks
+	priority = 501
 
 	specifications =
 	[
@@ -20,8 +20,8 @@
 	type BuildingType
 
 	baseValue = 70
-	name = Barracks
-	priority = 500
+	name = Tier 2 Barracks
+	priority = 502
 
 	specifications =
 	[
@@ -36,8 +36,8 @@
 	type BuildingType
 
 	baseValue = 90
-	name = Barracks
-	priority = 500
+	name = Tier 3 Barracks
+	priority = 503
 
 	specifications =
 	[
@@ -52,8 +52,8 @@
 	type BuildingType
 
 	baseValue = 110
-	name = Barracks
-	priority = 500
+	name = Tier 4 Barracks
+	priority = 504
 
 	specifications =
 	[

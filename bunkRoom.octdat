@@ -6,7 +6,7 @@
 	type RoomType
   inherit Oct.Rooms.T1
 
-	priority = 401
+	priority = 1401
 	name = Tier 1 Bunk Room
     onlyInherit = true
 
@@ -21,7 +21,7 @@
 	type RoomType
   inherit Oct.Rooms.T2
 
-	priority = 402
+	priority = 1402
 	name = Tier 2 Bunk Room
     onlyInherit = true
 
@@ -37,7 +37,7 @@
 	type RoomType
   inherit Oct.Rooms.T3
 
-	priority = 403
+	priority = 1403
 	name = Tier 3 Bunk Room
     onlyInherit = true
 
@@ -54,7 +54,7 @@
 	type RoomType
   inherit Oct.Rooms.T4
 
-	priority = 404
+	priority = 1404
 	name = Tier 4 Bunk Room
     onlyInherit = true
 
