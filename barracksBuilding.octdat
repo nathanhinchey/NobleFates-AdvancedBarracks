@@ -1,0 +1,39 @@
+// define practice room as a kind of building contents
+{
+	id Oct.Buildings.Contents.Practice
+	type ContainsRoomSpecification
+
+	name = Practice Room
+	types =
+	[
+    <Oct.Rooms.Practice>
+	]
+	included = true
+}
+// not sure if this is necessary, but definining the concept of a bunk room
+{
+	id Oct.Buildings.Contents.Bunk
+	type ContainsRoomSpecification
+
+	name = Bunk
+	types =
+	[
+		<Oct.Rooms.Bunk>
+	]
+	included = true
+}
+// define barracks as a building with a practice room and a bunk room
+{
+	id Oct.Buildings.Barracks
+	type BuildingType
+
+	baseValue = 20
+	name = Barracks
+	priority = 10001
+
+	specifications =
+	[
+		<Oct.Buildings.Contents.Bunk>
+		<Oct.Buildings.Contents.Practice>
+	]
+}
