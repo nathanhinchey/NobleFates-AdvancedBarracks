@@ -1,0 +1,22 @@
+// extend training dummy to be a belonging
+{
+  id Oct.Props.TrainingDummy
+  type TilePropType
+
+	belonging = true
+  factionOwnership = true
+}
+// define practice Room as a room with a training dummy in it
+{
+	id Oct.Rooms.Practice
+	type RoomType
+
+	priority = 1002
+	name = Practice
+    onlyInherit = true
+
+	specifications =
+	[
+        <Oct.Rooms.Contents.TrainingDummy>
+	]
+}

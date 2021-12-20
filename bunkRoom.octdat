@@ -1,2 +1,56 @@
 // expand the concept of bunkrooms to be tiered.
-// we're just using Oct.Rooms.Bunk as T1, so starting from T2
+
+// RoomTypes
+
+// ContainsRoomSpecifications
+
+{
+	id Oct.Buildings.Contents.Bunk.T1
+	type ContainsRoomSpecification
+
+	name = Tier 1 Bunk Room
+	types =
+	[
+		<Oct.Rooms.Bunk.T1>
+		<Oct.Rooms.Bunk.T2>
+		<Oct.Rooms.Bunk.T3>
+		<Oct.Rooms.Bunk.T4>
+	]
+	included = true
+}
+{
+	id Oct.Buildings.Contents.Bunk.T2
+	type ContainsRoomSpecification
+
+	name = Tier 2 Bunk Room
+	types =
+	[
+		<Oct.Rooms.Bunk.T2>
+		<Oct.Rooms.Bunk.T3>
+		<Oct.Rooms.Bunk.T4>
+	]
+	included = true
+}
+{
+	id Oct.Buildings.Contents.Bunk.T3
+	type ContainsRoomSpecification
+
+	name = Tier 3 Bunk Room
+	types =
+	[
+		<Oct.Rooms.Bunk.T3>
+		<Oct.Rooms.Bunk.T4>
+	]
+	included = true
+}
+{
+	id Oct.Buildings.Contents.Bunk.T4
+	type ContainsRoomSpecification
+
+	name = Tier 4 Bunk Room
+	types =
+	[
+		<Oct.Rooms.Bunk.T4>
+	]
+	included = true
+}

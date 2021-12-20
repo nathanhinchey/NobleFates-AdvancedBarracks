@@ -1,0 +1,12 @@
+// define training dummy as the presence of a training dummy
+{
+	id Oct.Rooms.Contents.TrainingDummy
+	type ContainsPropSpecification
+
+	name = TrainingDummy
+	types =
+	[
+		<Oct.Props.TrainingDummy>
+	]
+    included = true
+}

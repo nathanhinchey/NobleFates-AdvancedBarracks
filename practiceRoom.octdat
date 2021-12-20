@@ -1,34 +1,53 @@
-// extend training dummy to be a belonging
-{
-  id Oct.Props.TrainingDummy
-  type TilePropType
 
-	belonging = true
-  factionOwnership = true
-}
-// define training dummy as the presence of a training dummy
-{
-	id Oct.Rooms.Contents.TrainingDummy
-	type ContainsPropSpecification
+// Tiers of practice Rooms
 
-	name = TrainingDummy
+{
+	id Oct.Buildings.Contents.Practice.T1
+	type ContainsRoomSpecification
+
+	name = Tier 1 Practice Room
 	types =
 	[
-		<Oct.Props.TrainingDummy>
+		<Oct.Rooms.Practice.T1>
+		<Oct.Rooms.Practice.T2>
+		<Oct.Rooms.Practice.T3>
+		<Oct.Rooms.Practice.T4>
 	]
-    included = true
+	included = true
 }
-// define practice Room as a room with a training dummy in it
 {
-	id Oct.Rooms.Practice
-	type RoomType
+	id Oct.Buildings.Contents.Practice.T2
+	type ContainsRoomSpecification
 
-	priority = 1002
-	name = Practice
-    onlyInherit = true
-
-	specifications =
+	name = Tier 2 Practice Room
+	types =
 	[
-        <Oct.Rooms.Contents.TrainingDummy>
+		<Oct.Rooms.Practice.T2>
+		<Oct.Rooms.Practice.T3>
+		<Oct.Rooms.Practice.T4>
 	]
+	included = true
+}
+{
+	id Oct.Buildings.Contents.Practice.T3
+	type ContainsRoomSpecification
+
+	name = Tier 3 Practice Room
+	types =
+	[
+		<Oct.Rooms.Practice.T3>
+		<Oct.Rooms.Practice.T4>
+	]
+	included = true
+}
+{
+	id Oct.Buildings.Contents.Practice.T4
+	type ContainsRoomSpecification
+
+	name = Tier 4 Practice Room
+	types =
+	[
+		<Oct.Rooms.Practice.T4>
+	]
+	included = true
 }
