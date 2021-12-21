@@ -1,6 +1,6 @@
 # Advanced Barracks
 ## A Noble Fates Mod
-This mod adds Barracks buildings, Gynmnasium rooms, and tiered Bunk Rooms.
+This mod adds Barracks buildings and Gynmnasium rooms.
 
 ## What's in it!
 
@@ -13,11 +13,6 @@ gets its tier from its component rooms, like most tiered buildings.
 A Gymnasium is a room with training dummies in it for guards and rangers to
 practice their skills. The size requirements are standard for tiered rooms. One
 dummy per tier. (Base prestige: 5 per Tier)
-
-### Tiered Bunk Rooms
-Expands the concept of Bunk Rooms to be tiered. The size requirements are
-standard for tiered rooms. Tiers 1 and 2 need at least two beds, Tiers 3 and 4
-need at least four beds. (Base prestige: 0)
 
 ## How to use it!
 

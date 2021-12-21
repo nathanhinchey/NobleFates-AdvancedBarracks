@@ -9,7 +9,7 @@
 
 	specifications =
 	[
-		<Oct.Buildings.Contents.Bunk.T1>
+		<Oct.Buildings.Contents.Bunk>
 		<Oct.Buildings.Contents.Gymnasium.T1>
     <Oct.Buildings.Contents.Diningroom.T1>
     <Oct.Buildings.Contents.Storeroom.T1>
@@ -25,7 +25,7 @@
 
 	specifications =
 	[
-		<Oct.Buildings.Contents.Bunk.T2>
+		<Oct.Buildings.Contents.Bunk>
 		<Oct.Buildings.Contents.Gymnasium.T2>
     <Oct.Buildings.Contents.Diningroom.T2>
     <Oct.Buildings.Contents.Storeroom.T2>
@@ -41,7 +41,7 @@
 
 	specifications =
 	[
-		<Oct.Buildings.Contents.Bunk.T3>
+		<Oct.Buildings.Contents.Bunk>
 		<Oct.Buildings.Contents.Gymnasium.T3>
     <Oct.Buildings.Contents.Diningroom.T3>
     <Oct.Buildings.Contents.Storeroom.T3>
@@ -57,7 +57,7 @@
 
 	specifications =
 	[
-		<Oct.Buildings.Contents.Bunk.T4>
+		<Oct.Buildings.Contents.Bunk>
 		<Oct.Buildings.Contents.Gymnasium.T4>
     <Oct.Buildings.Contents.Diningroom.T4>
     <Oct.Buildings.Contents.Storeroom.T4>
