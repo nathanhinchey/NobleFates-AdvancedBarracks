@@ -1,11 +1,26 @@
 // Barracks have bunks, mess hall, Gymnasium, and storage
+//ContainsRoomSpecifications
+{
+	id Oct.Buildings.Contents.Bunk
+	type ContainsRoomSpecification
+
+	name = Bunk
+	types =
+	[
+		<Oct.Rooms.Bunk>
+	]
+	included = true
+}
+
+// BuildingTypes
 {
 	id Oct.Buildings.Barracks.T1
 	type BuildingType
 
 	baseValue = 50
 	name = Tier 1 Barracks
-	priority = 501
+	priority = 1501
+	ownable = true
 
 	specifications =
 	[
@@ -21,7 +36,7 @@
 
 	baseValue = 70
 	name = Tier 2 Barracks
-	priority = 502
+	priority = 1502
 
 	specifications =
 	[
@@ -37,7 +52,7 @@
 
 	baseValue = 90
 	name = Tier 3 Barracks
-	priority = 503
+	priority = 1503
 
 	specifications =
 	[
@@ -53,7 +68,7 @@
 
 	baseValue = 110
 	name = Tier 4 Barracks
-	priority = 504
+	priority = 1504
 
 	specifications =
 	[

@@ -7,6 +7,19 @@
   factionOwnership = true
 }
 
+// ContainsPropSpecification
+{
+	id Oct.Rooms.Contents.TrainingDummy
+	type ContainsPropSpecification
+
+	name = Included Wooden Table
+	types =
+	[
+		<Oct.Props.TrainingDummy>
+	]
+	included = true
+}
+
 // RoomTypes
 {
 	id Oct.Rooms.Gymnasium.T1
