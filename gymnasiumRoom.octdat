@@ -13,6 +13,7 @@
 	type RoomType
   inherit Oct.Rooms.T1
 
+  baseValue = 5
 	priority = 501
 	name = Tier 1 Gymnasium
     onlyInherit = true
@@ -27,6 +28,7 @@
 	type RoomType
   inherit Oct.Rooms.T2
 
+  baseValue = 10
 	priority = 502
 	name = Tier 2 Gymnasium
     onlyInherit = true
@@ -42,6 +44,7 @@
 	type RoomType
   inherit Oct.Rooms.T3
 
+  baseValue = 15
 	priority = 503
 	name = Tier 3 Gymnasium
     onlyInherit = true
@@ -58,6 +61,8 @@
 	type RoomType
   inherit Oct.Rooms.T4
 
+
+  baseValue = 20
 	priority = 504
 	name = Tier 4 Gymnasium
     onlyInherit = true
